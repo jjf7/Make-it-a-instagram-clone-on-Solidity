@@ -1,5 +1,5 @@
-const Token = artifacts.require("Token")
+const Decentagram = artifacts.require("Decentagram")
 
 module.exports = (deployer) => {
-    deployer.deploy(Token)
+    deployer.deploy(Decentagram)
 }

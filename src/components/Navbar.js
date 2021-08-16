@@ -6,10 +6,8 @@ export default function Navbar({account}) {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid container">
         <a target="_blank" className="navbar-brand" href="https://tupaginaonline.net">
-          Colecciona tokens no fungibles <b>NFTs</b>
+          Bienvenidos a  <b>Decentagram</b>
         </a>
-     
-      
           <ul className="navbar-nav">
             <li className="nav-item ">
               <a className="nav-link" href="#">
