@@ -35,7 +35,7 @@ function tipsToAuthor(uint _id) public payable {
     require(msg.value >= 0.01 ether);
     Post storage post = posts[_id];
     payable(post.author).transfer(msg.value);
-    post.tipAmount++;
+    post.tipAmount = post.tipAmount.add(msg.value);
     emit tipGivenToAuthor(_id, msg.value, post.tipAmount);
 }
 
